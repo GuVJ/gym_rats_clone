@@ -1,0 +1,28 @@
+/* src/components/common/Accordion.css */
+.accordion-item {
+    border-bottom: 1px solid #dddddd;
+    padding: 15px 0;
+  }
+  
+  .accordion-question {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    padding-right: 20px;
+  }
+  
+  .accordion-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+  }
+  
+  .accordion-answer {
+    margin-top: 10px;
+    color: #666666;
+  }
+  
+  .accordion-item.open .accordion-question::after {
+    content: '-';
+  }
+  

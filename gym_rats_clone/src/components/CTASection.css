@@ -1,0 +1,21 @@
+/* src/components/CTASection.css */
+.cta-section {
+    padding: 60px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .cta-section .btn {
+    background-color: #ffffff;
+    color: #007bff;
+  }
+  
+  .cta-section .btn:hover {
+    background-color: #e6e6e6;
+  }
+  
