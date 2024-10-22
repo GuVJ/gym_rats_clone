@@ -6,7 +6,7 @@ import './Benefits.css';
 function Benefits() {
   const benefits = [
     {
-      title: 'Melhora na Adesão',
+      title: 'Melhora na Adesão.',
       description: 'Aumente o engajamento dos pacientes com o tratamento.',
       icon: <FaUserCheck />,
     },
